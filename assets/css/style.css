@@ -1,0 +1,34 @@
+body {
+	min-height: 3000px;
+}
+
+.jumbotron {
+	padding-top: 6rem;
+	background: #e2edff;
+}
+
+#project {
+	background: #e2edff;
+}
+
+section {
+	padding-top: 5rem;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.bi-x-lg,
+.bi-justify {
+	transition: all 0.5s ease-in;
+}
+
+.card {
+	cursor: pointer;
+}
+
+.card:hover {
+	transition: all 0.5s;
+	transform: scale(1.05);
+}
